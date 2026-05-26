@@ -18,7 +18,7 @@ const botOptions = {
     host: 'WeAreSmoFun.aternos.me', // Твой айпи Атернос
     port: 13795,                     // Стандартный порт
     username: 'AFK_Bot',             // Ник бота в игре
-    version: 1.21.1                   // Автоматический выбор версии
+    version: '1.21.1'                   // Автоматический выбор версии
 };
 
 function createBot() {
