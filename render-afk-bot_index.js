@@ -15,10 +15,10 @@ app.listen(PORT, () => {
 
 // 2. Настройки подключения к Майнкрафт серверу
 const botOptions = {
-    host: 'WeAreSmpFun.aternos.me', // Твой айпи Атернос
-    port: 13795,                     // Стандартный порт
-    username: 'AFK_Bot',             // Ник бота в игре
-    version: '1.21.1'                   // Автоматический выбор версии
+    host: 'WeAreSmpFun.aternos.me', // Твой правильный айпи с буквой P
+    port: 13795,                    // Твой текущий порт из Атерноса
+    username: 'AFK_Bot',             // Ник бота
+    version: '1.21.1'               // Твоя версия
 };
 
 function createBot() {
