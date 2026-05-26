@@ -46,7 +46,7 @@ function createBot() {
         if (global.jumpInterval) clearInterval(global.jumpInterval);
         
         console.log('[Minecraft] Переподключение через 1 минуту...');
-        setTimeout(createBot, 60000); 
+        setTimeout(createBot, 10000); 
     });
 
     // Ошибки соединения
